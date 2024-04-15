@@ -5,6 +5,8 @@ set(CMAKE_CXX_STANDARD 20)
 
 include_directories(lib/libnpl)
 
+add_executable(main src/main.cpp)
+
 include(CTest)
 enable_testing()
 
